@@ -7,7 +7,6 @@ from cloudscraper import create_scraper
 from urllib3 import disable_warnings
 
 from bot import LOGGER, shorteners_list
-import shorteners.txt
 
 def short_url(longurl, attempt=0):
     if not shorteners_list:
